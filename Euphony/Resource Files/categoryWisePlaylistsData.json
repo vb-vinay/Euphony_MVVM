@@ -1,0 +1,732 @@
+{
+  "playlists": {
+    "href": "https://api.spotify.com/v1/browse/categories/punjabi/playlists?offset=0&limit=20",
+    "items": [
+      {
+        "collaborative": false,
+        "description": "The ultimate 101 hits. Cover: Maninder Buttar",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX5cZuAHLNjGz"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX5cZuAHLNjGz",
+        "id": "37i9dQZF1DX5cZuAHLNjGz",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000002770e4f5f5d2158feeb7a5e14",
+            "width": null
+          }
+        ],
+        "name": "Punjabi 101",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU3NDc0OTMzMiwwMDAwMDA0YzAwMDAwMTZlYTY1ZmUzMzYwMDAwMDE2ZTczNjdmNTg0",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX5cZuAHLNjGz/tracks",
+          "total": 101
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX5cZuAHLNjGz"
+      },
+      {
+        "collaborative": false,
+        "description": "Get your dose of Punjabi Pop. Cover: Jassie Gill",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWWwF1YkSKLlU"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWWwF1YkSKLlU",
+        "id": "37i9dQZF1DWWwF1YkSKLlU",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000002df88889fb66caa1108352df4",
+            "width": null
+          }
+        ],
+        "name": "Punjabi Pop",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU3NTA5NDMyOCwwMDAwMDA3YTAwMDAwMTZlYmFmMDFjZjkwMDAwMDE2ZWJhZWUyYzg2",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWWwF1YkSKLlU/tracks",
+          "total": 56
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWWwF1YkSKLlU"
+      },
+      {
+        "collaborative": false,
+        "description": "Catch the hottest Punjabi songs. \nCover: B Praak",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWXVJK4aT7pmk"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWXVJK4aT7pmk",
+        "id": "37i9dQZF1DWXVJK4aT7pmk",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000002ec8ae24aa4b3dca49e10548e",
+            "width": null
+          }
+        ],
+        "name": "Top Hits Punjabi",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU3NTM1NDUwOSwwMDAwMDA3ZDAwMDAwMTZlY2E3MjI5NTAwMDAwMDE2ZWJhY2ZmODMx",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWXVJK4aT7pmk/tracks",
+          "total": 57
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWXVJK4aT7pmk"
+      },
+      {
+        "collaborative": false,
+        "description": "This is how we do it, This is our style.\nCover: Sidhu Moose Wala",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWTqYqGLu7kTX"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWTqYqGLu7kTX",
+        "id": "37i9dQZF1DWTqYqGLu7kTX",
+        "images": [
+          {
+            "height": null,
+            "url": "https://pl.scdn.co/images/pl/default/4791f703e618fa8ecc2759d10ae447b098aefdf0",
+            "width": null
+          }
+        ],
+        "name": "Hip Te Hop",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU3NTI1NzUwNywwMDAwMDA2NzAwMDAwMTZlYzRhYTA1ZDYwMDAwMDE2ZGI0NGNlYWNk",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWTqYqGLu7kTX/tracks",
+          "total": 75
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWTqYqGLu7kTX"
+      },
+      {
+        "collaborative": false,
+        "description": "Stay updated with all the smashing new Punjabi music! Cover- Harrdy Sandhu",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX5baCFRgbF3x"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX5baCFRgbF3x",
+        "id": "37i9dQZF1DX5baCFRgbF3x",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000002948ad3ab7880cb2daf22ebf4",
+            "width": null
+          }
+        ],
+        "name": "New Music Punjabi",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU3NTI2NzE0NCwwMDAwMDFjNDAwMDAwMTZlYzUzZDEyYWQwMDAwMDE2ZWJhNmNlYzQy",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX5baCFRgbF3x/tracks",
+          "total": 107
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX5baCFRgbF3x"
+      },
+      {
+        "collaborative": false,
+        "description": "Fresh Punjabi Rap. Cover: Prabh Deep",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX4pHb5aF7Ipw"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX4pHb5aF7Ipw",
+        "id": "37i9dQZF1DX4pHb5aF7Ipw",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f000000025418334e56e6ef64281937fd",
+            "width": null
+          }
+        ],
+        "name": "Burrh Rap",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU3NDc3NTk4OSwwMDAwMDAyYzAwMDAwMTZlYTdmNmE0ZjUwMDAwMDE2ZTdlMTU1MWEw",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX4pHb5aF7Ipw/tracks",
+          "total": 76
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX4pHb5aF7Ipw"
+      },
+      {
+        "collaborative": false,
+        "description": "Travel First Class with Punjabi hits to Bollywood.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWWkyjgaO7IW7"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWWkyjgaO7IW7",
+        "id": "37i9dQZF1DWWkyjgaO7IW7",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f0000000287aa1efcc300aad89f5ffe3c",
+            "width": null
+          }
+        ],
+        "name": "Punjab Mail",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU3NTM1NDQ2MiwwMDAwMDAyMDAwMDAwMTZlY2E3MTcyOGIwMDAwMDE2ZWM1ZjE4Y2Nl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWWkyjgaO7IW7/tracks",
+          "total": 51
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWWkyjgaO7IW7"
+      },
+      {
+        "collaborative": false,
+        "description": "Welcome to the electronic side of Punjab.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWU4POnHhFms2"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWU4POnHhFms2",
+        "id": "37i9dQZF1DWU4POnHhFms2",
+        "images": [
+          {
+            "height": null,
+            "url": "https://pl.scdn.co/images/pl/default/81a8421e1765757bd6d1c3fc302bca6dd46bdf04",
+            "width": null
+          }
+        ],
+        "name": "PDM",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU3NTA4NjcxNCwwMDAwMDAxODAwMDAwMTZlYmE3YmVkZTYwMDAwMDE2ODM2NTM0NDgx",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWU4POnHhFms2/tracks",
+          "total": 57
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWU4POnHhFms2"
+      },
+      {
+        "collaborative": false,
+        "description": "Warm Up! Burn! Cooldown! Ready, Steady, move to Bhangra.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX2r53qiRaoS9"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX2r53qiRaoS9",
+        "id": "37i9dQZF1DX2r53qiRaoS9",
+        "images": [
+          {
+            "height": null,
+            "url": "https://pl.scdn.co/images/pl/default/7060ee593cbef62eb680d1ed28b7d55fc63b0977",
+            "width": null
+          }
+        ],
+        "name": "Masala Bhangra",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU3NTM1ODE4MiwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX2r53qiRaoS9/tracks",
+          "total": 50
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX2r53qiRaoS9"
+      },
+      {
+        "collaborative": false,
+        "description": "No If No But, Sirf Jatt!",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX7VZ4Z7i17k4"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX7VZ4Z7i17k4",
+        "id": "37i9dQZF1DX7VZ4Z7i17k4",
+        "images": [
+          {
+            "height": null,
+            "url": "https://pl.scdn.co/images/pl/default/f8a209f16348cb65153b93ea9d777708134c92de",
+            "width": null
+          }
+        ],
+        "name": "Jattitude",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU3NTI1NzQ1NSwwMDAwMDAyMjAwMDAwMTZlYzRhOTNiNjEwMDAwMDE2ODczZDJhMmVh",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX7VZ4Z7i17k4/tracks",
+          "total": 67
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX7VZ4Z7i17k4"
+      },
+      {
+        "collaborative": false,
+        "description": "That's when we brought bhangra in the disco! Cover : The Landers",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXdKTcyXUUm1i"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXdKTcyXUUm1i",
+        "id": "37i9dQZF1DXdKTcyXUUm1i",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000002d8973cdcc2e3d82d5b117cda",
+            "width": null
+          }
+        ],
+        "name": "Disco Te Bhangra",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU3NDA1NjczNiwwMDAwMDAyMTAwMDAwMTZlN2QxN2I1ZmIwMDAwMDE2ZTczNjlmYjJm",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXdKTcyXUUm1i/tracks",
+          "total": 43
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DXdKTcyXUUm1i"
+      },
+      {
+        "collaborative": false,
+        "description": "Turn up the volume , It's bhangra time!",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX6KVngIKQouc"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX6KVngIKQouc",
+        "id": "37i9dQZF1DX6KVngIKQouc",
+        "images": [
+          {
+            "height": null,
+            "url": "https://pl.scdn.co/images/pl/default/4bbd0634188f636a83084e78bee2821fa93414be",
+            "width": null
+          }
+        ],
+        "name": "Bhangra Junction",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU3NDY3MzIwNCwwMDAwMDA0NjAwMDAwMTZlYTFkNjQ1OGIwMDAwMDE2ODM2YzI2YzBk",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX6KVngIKQouc/tracks",
+          "total": 73
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX6KVngIKQouc"
+      },
+      {
+        "collaborative": false,
+        "description": "Connect with your roots with the ultimate Folk Punjabi Couplets! O Balle Balle Balle!",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXagML239kIgg"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXagML239kIgg",
+        "id": "37i9dQZF1DXagML239kIgg",
+        "images": [
+          {
+            "height": null,
+            "url": "https://pl.scdn.co/images/pl/default/16cf7a2632ece9e64b25bfa35ee5e2b36398bf5b",
+            "width": null
+          }
+        ],
+        "name": "Pao Boliyan",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU3NDk0MDAxMiwwMDAwMDAwZTAwMDAwMTZlYjFiZDcwZDEwMDAwMDE2ODcwMmJmYTRl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXagML239kIgg/tracks",
+          "total": 39
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DXagML239kIgg"
+      },
+      {
+        "collaborative": false,
+        "description": "Songs that represent the society and reality.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX0uZvZMWqVMI"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX0uZvZMWqVMI",
+        "id": "37i9dQZF1DX0uZvZMWqVMI",
+        "images": [
+          {
+            "height": null,
+            "url": "https://pl.scdn.co/images/pl/default/2301dad49c15d7c0264009374da632e1ac360233",
+            "width": null
+          }
+        ],
+        "name": "Lok Tath",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU3NTAwNTY4OCwwMDAwMDAwODAwMDAwMTZlYjVhNzkwYzQwMDAwMDE2ODc5NjViM2Uy",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX0uZvZMWqVMI/tracks",
+          "total": 35
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX0uZvZMWqVMI"
+      },
+      {
+        "collaborative": false,
+        "description": "It's raining happiness!",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWTDQekfJlOMe"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWTDQekfJlOMe",
+        "id": "37i9dQZF1DWTDQekfJlOMe",
+        "images": [
+          {
+            "height": null,
+            "url": "https://pl.scdn.co/images/pl/default/31da462f1d9fcbf9be6338c02b8f4d81d8a03b14",
+            "width": null
+          }
+        ],
+        "name": "Happy Baarish",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU3NTAwNjA1NiwwMDAwMDAwYjAwMDAwMTZlYjVhZDJlYmEwMDAwMDE2YjRhZTA2MDJh",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWTDQekfJlOMe/tracks",
+          "total": 32
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWTDQekfJlOMe"
+      },
+      {
+        "collaborative": false,
+        "description": "Caution! Heartbreak zone ahead",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWWfmbQgZIznF"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWWfmbQgZIznF",
+        "id": "37i9dQZF1DWWfmbQgZIznF",
+        "images": [
+          {
+            "height": null,
+            "url": "https://pl.scdn.co/images/pl/default/4015c52c924752bb1bc4b7fed0d413d09c2714a9",
+            "width": null
+          }
+        ],
+        "name": "Tuteya Dil",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU3NTM1NDM0OSwwMDAwMDAyZDAwMDAwMTZlY2E2ZmI3NTkwMDAwMDE2ODRhZjFiODZk",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWWfmbQgZIznF/tracks",
+          "total": 55
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWWfmbQgZIznF"
+      },
+      {
+        "collaborative": false,
+        "description": "The ultimate mood booster for Happy, Lucky and Lovely people!",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX7QeQjujWh9l"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX7QeQjujWh9l",
+        "id": "37i9dQZF1DX7QeQjujWh9l",
+        "images": [
+          {
+            "height": null,
+            "url": "https://pl.scdn.co/images/pl/default/2c2e3cad29f6d9c8573d4d526ac701088821da4a",
+            "width": null
+          }
+        ],
+        "name": "Happy Oye!",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU3NTM1ODE1MiwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX7QeQjujWh9l/tracks",
+          "total": 56
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX7QeQjujWh9l"
+      },
+      {
+        "collaborative": false,
+        "description": "Your Perfect Gedi Partner! Chalo Chaliye!",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWUzG8YciRYE0"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWUzG8YciRYE0",
+        "id": "37i9dQZF1DWUzG8YciRYE0",
+        "images": [
+          {
+            "height": null,
+            "url": "https://pl.scdn.co/images/pl/default/e2811357d5c4e38b6d9122d11bc42b75064d309e",
+            "width": null
+          }
+        ],
+        "name": "Gedi Da Tashn",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU3NTM1ODE4NywwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWUzG8YciRYE0/tracks",
+          "total": 50
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWUzG8YciRYE0"
+      },
+      {
+        "collaborative": false,
+        "description": "Songs that make you fall in love.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXblQq2w1vrYe"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXblQq2w1vrYe",
+        "id": "37i9dQZF1DXblQq2w1vrYe",
+        "images": [
+          {
+            "height": null,
+            "url": "https://pl.scdn.co/images/pl/default/4ddf40fe851f3cf865816076222423bcc1572725",
+            "width": null
+          }
+        ],
+        "name": "Love U Ji",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU3NTI2Njk0NywwMDAwMDA1MjAwMDAwMTZlYzUzYTBmY2MwMDAwMDE2ODM2ODcwZTI4",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXblQq2w1vrYe/tracks",
+          "total": 85
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DXblQq2w1vrYe"
+      },
+      {
+        "collaborative": false,
+        "description": "Sit Back , Unwind Te Thand Rakho!",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX9L0PulSSl2E"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX9L0PulSSl2E",
+        "id": "37i9dQZF1DX9L0PulSSl2E",
+        "images": [
+          {
+            "height": null,
+            "url": "https://pl.scdn.co/images/pl/default/a1a33c41df55faedf57d3062cd31a72f84732e1b",
+            "width": null
+          }
+        ],
+        "name": "Chill Karlo",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU3NDc1MzA0NiwwMDAwMDAxZTAwMDAwMTZlYTY5ODhlOGIwMDAwMDE2ODVhN2FlYjNk",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX9L0PulSSl2E/tracks",
+          "total": 62
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX9L0PulSSl2E"
+      }
+    ],
+    "limit": 20,
+    "next": "https://api.spotify.com/v1/browse/categories/punjabi/playlists?offset=20&limit=20",
+    "offset": 0,
+    "previous": null,
+    "total": 56
+  }
+}

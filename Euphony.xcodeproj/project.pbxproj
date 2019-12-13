@@ -3,27 +3,98 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10F829E23990F090082CE3F /* PlayerContainerview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10F829D23990F090082CE3F /* PlayerContainerview.swift */; };
+		A10F82A02399106A0082CE3F /* PlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10F829F2399106A0082CE3F /* PlayerControlsView.swift */; };
+		A10F82A2239954BA0082CE3F /* videoplayback.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A10F82A1239954BA0082CE3F /* videoplayback.mp4 */; };
 		A1204AC823744606009A1B91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1204AC723744606009A1B91 /* AppDelegate.swift */; };
 		A1204ACA23744606009A1B91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1204AC923744606009A1B91 /* SceneDelegate.swift */; };
-		A1204ACC23744606009A1B91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1204ACB23744606009A1B91 /* ContentView.swift */; };
+		A1204ACC23744606009A1B91 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1204ACB23744606009A1B91 /* HomeScreenView.swift */; };
 		A1204ACE2374460C009A1B91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1204ACD2374460C009A1B91 /* Assets.xcassets */; };
 		A1204AD12374460C009A1B91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1204AD02374460C009A1B91 /* Preview Assets.xcassets */; };
 		A1204AD42374460C009A1B91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1204AD22374460C009A1B91 /* LaunchScreen.storyboard */; };
+		A1204ADC2379645F009A1B91 /* RecommendationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1204ADB2379645F009A1B91 /* RecommendationRow.swift */; };
+		A1204ADE237981B3009A1B91 /* SongTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1204ADD237981B3009A1B91 /* SongTitle.swift */; };
+		A1204AE1237A9DF2009A1B91 /* SearchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1204AE0237A9DF2009A1B91 /* SearchScreenView.swift */; };
+		A1204AE3237A9F05009A1B91 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1204AE2237A9F05009A1B91 /* ImageDownloader.swift */; };
+		A147D330239A6354001E9A24 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A147D32F239A6354001E9A24 /* Utilities.swift */; };
+		A1484D08238FD57D00AD2DBE /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1484D07238FD57D00AD2DBE /* SearchBar.swift */; };
+		A1484D0A238FEEA500AD2DBE /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1484D09238FEEA500AD2DBE /* WebView.swift */; };
+		A1484D0D238FF49B00AD2DBE /* NetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1484D0C238FF49B00AD2DBE /* NetworkUtils.swift */; };
+		A1484D0F238FF52D00AD2DBE /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1484D0E238FF52D00AD2DBE /* ImageService.swift */; };
+		A1489351239EA9AA00B0DA5D /* OutlineMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1489350239EA9AA00B0DA5D /* OutlineMenu.swift */; };
+		A1489353239EAE4C00B0DA5D /* SplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1489352239EAE4C00B0DA5D /* SplitView.swift */; };
+		A1489F9E23A0BFA500953349 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1489F9D23A0BFA500953349 /* WebService.swift */; };
+		A14B2A6A2394DB7500CFC247 /* CategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14B2A692394DB7500CFC247 /* CategoriesModel.swift */; };
+		A14B2A6C2394DC7100CFC247 /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14B2A6B2394DC7100CFC247 /* CategoryList.swift */; };
+		A14B2A6E2394DCBA00CFC247 /* categoryData.json in Resources */ = {isa = PBXBuildFile; fileRef = A14B2A6D2394DCBA00CFC247 /* categoryData.json */; };
+		A14B2A702394FC3100CFC247 /* GenreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14B2A6F2394FC3100CFC247 /* GenreModel.swift */; };
+		A14B2A722394FE1600CFC247 /* genresData.json in Resources */ = {isa = PBXBuildFile; fileRef = A14B2A712394FE1600CFC247 /* genresData.json */; };
+		A14B2A742394FEA000CFC247 /* GenresList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14B2A732394FEA000CFC247 /* GenresList.swift */; };
+		A14B2A7823966ED200CFC247 /* categoryWisePlaylistsData.json in Resources */ = {isa = PBXBuildFile; fileRef = A14B2A7723966ED200CFC247 /* categoryWisePlaylistsData.json */; };
+		A14B2A7A23966F1200CFC247 /* CatPlaylists.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14B2A7923966F1200CFC247 /* CatPlaylists.swift */; };
+		A14B2A7C2398E78100CFC247 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14B2A7B2398E78100CFC247 /* PlayerView.swift */; };
+		A14B2A7E2398F3C400CFC247 /* PlayerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14B2A7D2398F3C400CFC247 /* PlayerUIView.swift */; };
+		A14BC2C8239F775700B1DFD5 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14BC2C7239F775700B1DFD5 /* DiscoverView.swift */; };
+		A14BC2CB239F7FC700B1DFD5 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14BC2CA239F7FC700B1DFD5 /* BorderButton.swift */; };
+		A14BC2CD239F8B1C00B1DFD5 /* DiscoverFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14BC2CC239F8B1C00B1DFD5 /* DiscoverFilter.swift */; };
+		A14BC2D0239F93C400B1DFD5 /* DraggableCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14BC2CF239F93C400B1DFD5 /* DraggableCover.swift */; };
+		A1654C2023A00E6A00FF8D24 /* TrackListViewM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1654C1F23A00E6A00FF8D24 /* TrackListViewM.swift */; };
+		A16FFAF72385413500FCD826 /* RecommendationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16FFAF62385413500FCD826 /* RecommendationModel.swift */; };
+		A16FFAFF2387ECBA00FCD826 /* SubHomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16FFAFE2387ECBA00FCD826 /* SubHomeScreenView.swift */; };
+		A16FFB012387FFCC00FCD826 /* albumData.json in Resources */ = {isa = PBXBuildFile; fileRef = A16FFB002387FFCC00FCD826 /* albumData.json */; };
+		A16FFB032388003F00FCD826 /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16FFB022388003F00FCD826 /* JSONLoader.swift */; };
+		A16FFB05238D426E00FCD826 /* euphony-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A16FFB04238D426E00FCD826 /* euphony-icon.png */; };
+		A16FFB0E238E4A5000FCD826 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = A16FFB0D238E4A5000FCD826 /* URLImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A10F829D23990F090082CE3F /* PlayerContainerview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerContainerview.swift; sourceTree = "<group>"; };
+		A10F829F2399106A0082CE3F /* PlayerControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlsView.swift; sourceTree = "<group>"; };
+		A10F82A1239954BA0082CE3F /* videoplayback.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = videoplayback.mp4; path = "Euphony/Resource Files/videoplayback.mp4"; sourceTree = "<group>"; };
 		A1204AC423744606009A1B91 /* Euphony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Euphony.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1204AC723744606009A1B91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1204AC923744606009A1B91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A1204ACB23744606009A1B91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1204ACB23744606009A1B91 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		A1204ACD2374460C009A1B91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1204AD02374460C009A1B91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A1204AD32374460C009A1B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1204AD52374460C009A1B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1204ADB2379645F009A1B91 /* RecommendationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationRow.swift; sourceTree = "<group>"; };
+		A1204ADD237981B3009A1B91 /* SongTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTitle.swift; sourceTree = "<group>"; };
+		A1204AE0237A9DF2009A1B91 /* SearchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreenView.swift; sourceTree = "<group>"; };
+		A1204AE2237A9F05009A1B91 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		A147D32F239A6354001E9A24 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A1484D07238FD57D00AD2DBE /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		A1484D09238FEEA500AD2DBE /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		A1484D0C238FF49B00AD2DBE /* NetworkUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtils.swift; sourceTree = "<group>"; };
+		A1484D0E238FF52D00AD2DBE /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		A1489350239EA9AA00B0DA5D /* OutlineMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineMenu.swift; sourceTree = "<group>"; };
+		A1489352239EAE4C00B0DA5D /* SplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitView.swift; sourceTree = "<group>"; };
+		A1489F9D23A0BFA500953349 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		A14B2A692394DB7500CFC247 /* CategoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesModel.swift; sourceTree = "<group>"; };
+		A14B2A6B2394DC7100CFC247 /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
+		A14B2A6D2394DCBA00CFC247 /* categoryData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = categoryData.json; sourceTree = "<group>"; };
+		A14B2A6F2394FC3100CFC247 /* GenreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreModel.swift; sourceTree = "<group>"; };
+		A14B2A712394FE1600CFC247 /* genresData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = genresData.json; sourceTree = "<group>"; };
+		A14B2A732394FEA000CFC247 /* GenresList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenresList.swift; sourceTree = "<group>"; };
+		A14B2A7723966ED200CFC247 /* categoryWisePlaylistsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = categoryWisePlaylistsData.json; sourceTree = "<group>"; };
+		A14B2A7923966F1200CFC247 /* CatPlaylists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatPlaylists.swift; sourceTree = "<group>"; };
+		A14B2A7B2398E78100CFC247 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		A14B2A7D2398F3C400CFC247 /* PlayerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerUIView.swift; sourceTree = "<group>"; };
+		A14BC2C7239F775700B1DFD5 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		A14BC2CA239F7FC700B1DFD5 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		A14BC2CC239F8B1C00B1DFD5 /* DiscoverFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverFilter.swift; sourceTree = "<group>"; };
+		A14BC2CF239F93C400B1DFD5 /* DraggableCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableCover.swift; sourceTree = "<group>"; };
+		A1654C1F23A00E6A00FF8D24 /* TrackListViewM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewM.swift; sourceTree = "<group>"; };
+		A16FFAF62385413500FCD826 /* RecommendationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationModel.swift; sourceTree = "<group>"; };
+		A16FFAFE2387ECBA00FCD826 /* SubHomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubHomeScreenView.swift; sourceTree = "<group>"; };
+		A16FFB002387FFCC00FCD826 /* albumData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = albumData.json; sourceTree = "<group>"; };
+		A16FFB022388003F00FCD826 /* JSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
+		A16FFB04238D426E00FCD826 /* euphony-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "euphony-icon.png"; path = "../../../../Desktop/euphony-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A16FFB0E238E4A5000FCD826 /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +112,7 @@
 		A1204ABB23744605009A1B91 = {
 			isa = PBXGroup;
 			children = (
+				A10F82A1239954BA0082CE3F /* videoplayback.mp4 */,
 				A1204AC623744606009A1B91 /* Euphony */,
 				A1204AC523744606009A1B91 /* Products */,
 			);
@@ -56,12 +129,14 @@
 		A1204AC623744606009A1B91 /* Euphony */ = {
 			isa = PBXGroup;
 			children = (
-				A1204AC723744606009A1B91 /* AppDelegate.swift */,
-				A1204AC923744606009A1B91 /* SceneDelegate.swift */,
-				A1204ACB23744606009A1B91 /* ContentView.swift */,
-				A1204ACD2374460C009A1B91 /* Assets.xcassets */,
-				A1204AD22374460C009A1B91 /* LaunchScreen.storyboard */,
-				A1204AD52374460C009A1B91 /* Info.plist */,
+				A14BC2CE239F938500B1DFD5 /* Discover */,
+				A148934F239EA96E00B0DA5D /* Utilities */,
+				A1484D0B238FF48100AD2DBE /* Services */,
+				A16FFAF52383BE0C00FCD826 /* Models */,
+				A16FFAFD2387CBDC00FCD826 /* ViewModels */,
+				A16FFAF82387C8BE00FCD826 /* Views */,
+				A16FFAFC2387CB4300FCD826 /* Managers */,
+				A16FFAF92387C8D900FCD826 /* Resource Files */,
 				A1204ACF2374460C009A1B91 /* Preview Content */,
 			);
 			path = Euphony;
@@ -73,6 +148,134 @@
 				A1204AD02374460C009A1B91 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1484D0B238FF48100AD2DBE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A1484D0E238FF52D00AD2DBE /* ImageService.swift */,
+				A1489F9D23A0BFA500953349 /* WebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A148934F239EA96E00B0DA5D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A1484D0C238FF49B00AD2DBE /* NetworkUtils.swift */,
+				A147D32F239A6354001E9A24 /* Utilities.swift */,
+				A1489350239EA9AA00B0DA5D /* OutlineMenu.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A14A051C23A177150081AC59 /* RecommendedTracks */ = {
+			isa = PBXGroup;
+			children = (
+				A1654C1F23A00E6A00FF8D24 /* TrackListViewM.swift */,
+			);
+			path = RecommendedTracks;
+			sourceTree = "<group>";
+		};
+		A14BC2C9239F7FA900B1DFD5 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				A14BC2CA239F7FC700B1DFD5 /* BorderButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		A14BC2CE239F938500B1DFD5 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				A14BC2C7239F775700B1DFD5 /* DiscoverView.swift */,
+				A14BC2CC239F8B1C00B1DFD5 /* DiscoverFilter.swift */,
+				A14BC2CF239F93C400B1DFD5 /* DraggableCover.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		A16FFAF52383BE0C00FCD826 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A16FFAF62385413500FCD826 /* RecommendationModel.swift */,
+				A14B2A692394DB7500CFC247 /* CategoriesModel.swift */,
+				A14B2A6F2394FC3100CFC247 /* GenreModel.swift */,
+				A14B2A7923966F1200CFC247 /* CatPlaylists.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A16FFAF82387C8BE00FCD826 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A14BC2C9239F7FA900B1DFD5 /* Buttons */,
+				A16FFAFB2387CB2500FCD826 /* Main Views */,
+				A16FFAFA2387C90300FCD826 /* Supporting Views */,
+				A1489352239EAE4C00B0DA5D /* SplitView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A16FFAF92387C8D900FCD826 /* Resource Files */ = {
+			isa = PBXGroup;
+			children = (
+				A16FFB04238D426E00FCD826 /* euphony-icon.png */,
+				A1204AD52374460C009A1B91 /* Info.plist */,
+				A1204AC723744606009A1B91 /* AppDelegate.swift */,
+				A1204AC923744606009A1B91 /* SceneDelegate.swift */,
+				A1204AD22374460C009A1B91 /* LaunchScreen.storyboard */,
+				A1204ACD2374460C009A1B91 /* Assets.xcassets */,
+				A16FFB002387FFCC00FCD826 /* albumData.json */,
+				A14B2A6D2394DCBA00CFC247 /* categoryData.json */,
+				A14B2A712394FE1600CFC247 /* genresData.json */,
+				A14B2A7723966ED200CFC247 /* categoryWisePlaylistsData.json */,
+			);
+			path = "Resource Files";
+			sourceTree = "<group>";
+		};
+		A16FFAFA2387C90300FCD826 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				A16FFAFE2387ECBA00FCD826 /* SubHomeScreenView.swift */,
+				A1204ADB2379645F009A1B91 /* RecommendationRow.swift */,
+				A1204ADD237981B3009A1B91 /* SongTitle.swift */,
+				A1484D07238FD57D00AD2DBE /* SearchBar.swift */,
+				A14B2A7B2398E78100CFC247 /* PlayerView.swift */,
+				A14B2A7D2398F3C400CFC247 /* PlayerUIView.swift */,
+				A10F829F2399106A0082CE3F /* PlayerControlsView.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		A16FFAFB2387CB2500FCD826 /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1204ACB23744606009A1B91 /* HomeScreenView.swift */,
+				A1204AE0237A9DF2009A1B91 /* SearchScreenView.swift */,
+				A1484D09238FEEA500AD2DBE /* WebView.swift */,
+				A10F829D23990F090082CE3F /* PlayerContainerview.swift */,
+				A14B2A732394FEA000CFC247 /* GenresList.swift */,
+				A14B2A6B2394DC7100CFC247 /* CategoryList.swift */,
+			);
+			path = "Main Views";
+			sourceTree = "<group>";
+		};
+		A16FFAFC2387CB4300FCD826 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A1204AE2237A9F05009A1B91 /* ImageDownloader.swift */,
+				A16FFB022388003F00FCD826 /* JSONLoader.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A16FFAFD2387CBDC00FCD826 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A14A051C23A177150081AC59 /* RecommendedTracks */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +294,9 @@
 			dependencies = (
 			);
 			name = Euphony;
+			packageProductDependencies = (
+				A16FFB0D238E4A5000FCD826 /* URLImage */,
+			);
 			productName = Euphony;
 			productReference = A1204AC423744606009A1B91 /* Euphony.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +325,9 @@
 				Base,
 			);
 			mainGroup = A1204ABB23744605009A1B91;
+			packageReferences = (
+				A16FFB0C238E4A5000FCD826 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = A1204AC523744606009A1B91 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,8 +342,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10F82A2239954BA0082CE3F /* videoplayback.mp4 in Resources */,
 				A1204AD42374460C009A1B91 /* LaunchScreen.storyboard in Resources */,
+				A14B2A6E2394DCBA00CFC247 /* categoryData.json in Resources */,
+				A16FFB012387FFCC00FCD826 /* albumData.json in Resources */,
+				A14B2A7823966ED200CFC247 /* categoryWisePlaylistsData.json in Resources */,
 				A1204AD12374460C009A1B91 /* Preview Assets.xcassets in Resources */,
+				A16FFB05238D426E00FCD826 /* euphony-icon.png in Resources */,
+				A14B2A722394FE1600CFC247 /* genresData.json in Resources */,
 				A1204ACE2374460C009A1B91 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,9 +361,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1489F9E23A0BFA500953349 /* WebService.swift in Sources */,
+				A10F82A02399106A0082CE3F /* PlayerControlsView.swift in Sources */,
+				A14B2A6A2394DB7500CFC247 /* CategoriesModel.swift in Sources */,
+				A14B2A742394FEA000CFC247 /* GenresList.swift in Sources */,
+				A14B2A7A23966F1200CFC247 /* CatPlaylists.swift in Sources */,
+				A14B2A7C2398E78100CFC247 /* PlayerView.swift in Sources */,
+				A1484D0D238FF49B00AD2DBE /* NetworkUtils.swift in Sources */,
+				A1204ADE237981B3009A1B91 /* SongTitle.swift in Sources */,
 				A1204AC823744606009A1B91 /* AppDelegate.swift in Sources */,
+				A16FFAFF2387ECBA00FCD826 /* SubHomeScreenView.swift in Sources */,
+				A16FFAF72385413500FCD826 /* RecommendationModel.swift in Sources */,
 				A1204ACA23744606009A1B91 /* SceneDelegate.swift in Sources */,
-				A1204ACC23744606009A1B91 /* ContentView.swift in Sources */,
+				A14B2A702394FC3100CFC247 /* GenreModel.swift in Sources */,
+				A1204AE3237A9F05009A1B91 /* ImageDownloader.swift in Sources */,
+				A1204ACC23744606009A1B91 /* HomeScreenView.swift in Sources */,
+				A1204AE1237A9DF2009A1B91 /* SearchScreenView.swift in Sources */,
+				A14BC2D0239F93C400B1DFD5 /* DraggableCover.swift in Sources */,
+				A14B2A7E2398F3C400CFC247 /* PlayerUIView.swift in Sources */,
+				A16FFB032388003F00FCD826 /* JSONLoader.swift in Sources */,
+				A1484D0A238FEEA500AD2DBE /* WebView.swift in Sources */,
+				A1489351239EA9AA00B0DA5D /* OutlineMenu.swift in Sources */,
+				A1489353239EAE4C00B0DA5D /* SplitView.swift in Sources */,
+				A14BC2CD239F8B1C00B1DFD5 /* DiscoverFilter.swift in Sources */,
+				A1484D08238FD57D00AD2DBE /* SearchBar.swift in Sources */,
+				A14B2A6C2394DC7100CFC247 /* CategoryList.swift in Sources */,
+				A1654C2023A00E6A00FF8D24 /* TrackListViewM.swift in Sources */,
+				A147D330239A6354001E9A24 /* Utilities.swift in Sources */,
+				A14BC2C8239F775700B1DFD5 /* DiscoverView.swift in Sources */,
+				A1204ADC2379645F009A1B91 /* RecommendationRow.swift in Sources */,
+				A1484D0F238FF52D00AD2DBE /* ImageService.swift in Sources */,
+				A10F829E23990F090082CE3F /* PlayerContainerview.swift in Sources */,
+				A14BC2CB239F7FC700B1DFD5 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +531,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Euphony/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Euphony/Info.plist;
+				INFOPLIST_FILE = "Euphony/Resource Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +550,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Euphony/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Euphony/Info.plist;
+				INFOPLIST_FILE = "Euphony/Resource Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -340,6 +584,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A16FFB0C238E4A5000FCD826 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A16FFB0D238E4A5000FCD826 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A16FFB0C238E4A5000FCD826 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A1204ABC23744605009A1B91 /* Project object */;
 }
